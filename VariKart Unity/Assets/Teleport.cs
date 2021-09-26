@@ -5,6 +5,7 @@ using UnityEngine;
 public class Teleport : MonoBehaviour
 {
     public GameObject cart;
+    public GameObject exit;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,6 @@ public class Teleport : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        cart.transform.position = new Vector3(-0.3f, 23.26f, -548);
+        cart.transform.position = exit.transform.position;
     }
 }
