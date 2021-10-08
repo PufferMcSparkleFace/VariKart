@@ -24,7 +24,6 @@ public class LapGamemode : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Triggered");
         if(other.tag == "Start")
         {
             start += 1;
