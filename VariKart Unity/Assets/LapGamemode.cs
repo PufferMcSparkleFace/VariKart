@@ -25,11 +25,11 @@ public class LapGamemode : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered");
-        if(other.tag == "start")
+        if(other.tag == "Start")
         {
             start += 1;
         }
-        if(other.tag == "end")
+        if(other.tag == "End")
         {
             end += 1;
         }
