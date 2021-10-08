@@ -6,6 +6,7 @@ public class LapGamemode : MonoBehaviour
 {
     public float start = 0;
     public float end = 0;
+    public bool cantrigger = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,13 +25,19 @@ public class LapGamemode : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Start")
+        if(other.tag == "Start" && cantrigger == true)
         {
             start += 1;
+            cantrigger = false;
         }
-        if(other.tag == "End")
+        if(other.tag == "End" && cantrigger == true)
         {
             end += 1;
+            cantrigger = false;
+        }
+        if(other.tag == "Checkpoint")
+        {
+            cantrigger = true;
         }
     }
 }
