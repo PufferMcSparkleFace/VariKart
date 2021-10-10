@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LapGamemode : MonoBehaviour
 {
     public float start = 0;
     public float end = 0;
     public bool cantrigger = true;
+    public GameFlowManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class LapGamemode : MonoBehaviour
     {
         if(start == 4 && end == 3)
         {
-            Debug.Log("Finished");
+            gameManager.EndGame(true);
         }
     }
 
