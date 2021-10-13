@@ -29,7 +29,6 @@ namespace KartGame.KartSystems
             canBoost = true;
         }
 
-       
 
 
         [System.Serializable]
@@ -98,33 +97,7 @@ namespace KartGame.KartSystems
             }
         }
 
-        public void Update()
-        {
-            if (Adrenaline == 0)
-            {
-                
-            }
-            if (Adrenaline == 0)
-            {
-
-            }
-            if (Adrenaline == 0)
-            {
-
-            }
-            if (Adrenaline == 0)
-            {
-
-            }
-            if (Adrenaline == 0)
-            {
-
-            }
-            if (isWerewolf == true)
-            {
-
-            }
-        }
+      
 
         public Rigidbody Rigidbody { get; private set; }
         public InputData Input     { get; private set; }
@@ -133,8 +106,6 @@ namespace KartGame.KartSystems
 
         public ArcadeKart.Stats baseStats = new ArcadeKart.Stats
         {
-            TopSpeed            = 30f,
-            Acceleration        = 5f,
             AccelerationCurve   = 4f,
             Braking             = 10f,
             ReverseAcceleration = 5f,
@@ -144,6 +115,60 @@ namespace KartGame.KartSystems
             Grip                = .95f,
             AddedGravity        = 1f,
         };
+
+
+        public void Update()
+        {
+            if (Adrenaline == 0)
+            {
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 30f,
+                    Acceleration = 7f,
+                };
+            }
+            if (Adrenaline == 1)
+            {
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 40f,
+                    Acceleration = 20f,
+                };
+            }
+            if (Adrenaline == 2)
+            {
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 50f,
+                    Acceleration = 20f,
+                };
+
+            }
+            if (Adrenaline == 3)
+            {
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 60f,
+                    Acceleration = 20f,
+                };
+            }
+            if (Adrenaline == 4)
+            {
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 70f,
+                    Acceleration = 20f,
+                };
+            }
+            if (isWerewolf == true)
+            {
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 75f,
+                    Acceleration = 20f,
+                };
+            }
+        }
 
         [Header("Vehicle Visual")] 
         public List<GameObject> m_VisualWheels;
