@@ -7,8 +7,34 @@ namespace KartGame.KartSystems
 {
     public class ArcadeKart : MonoBehaviour
     {
+        public bool isWerewolf = false;
+        public int Adrenaline = 0;
+        public bool canBoost = true;
+
+        public void OnTriggerEnter(Collider other)
+        {
+            if(other.tag == "Speedboost" && canBoost == true)
+            {
+                Adrenaline += 1;
+                if(Adrenaline > 4)
+                {
+                    Adrenaline = 4;
+                }
+                canBoost = false;
+            }
+        }
+
+        public void OnTriggerExit(Collider other)
+        {
+            canBoost = true;
+        }
+
+       
+
+
         [System.Serializable]
-     
+
+        
         public class StatPowerup
         {
             public ArcadeKart.Stats modifiers;
@@ -69,6 +95,34 @@ namespace KartGame.KartSystems
                     TopSpeed            = a.TopSpeed + b.TopSpeed,
                     Steer               = a.Steer + b.Steer,
                 };
+            }
+        }
+
+        public void Update()
+        {
+            if (Adrenaline == 0)
+            {
+                
+            }
+            if (Adrenaline == 0)
+            {
+
+            }
+            if (Adrenaline == 0)
+            {
+
+            }
+            if (Adrenaline == 0)
+            {
+
+            }
+            if (Adrenaline == 0)
+            {
+
+            }
+            if (isWerewolf == true)
+            {
+
             }
         }
 
@@ -185,6 +239,7 @@ namespace KartGame.KartSystems
         public void AddPowerup(StatPowerup statPowerup) => m_ActivePowerupList.Add(statPowerup);
         public void SetCanMove(bool move) => m_CanMove = move;
         public float GetMaxSpeed() => Mathf.Max(m_FinalStats.TopSpeed, m_FinalStats.ReverseSpeed);
+
 
         private void ActivateDriftVFX(bool active)
         {
@@ -320,6 +375,7 @@ namespace KartGame.KartSystems
             m_PreviousGroundPercent = GroundPercent;
 
             UpdateDriftVFXOrientation();
+
         }
 
         void GatherInputs()
@@ -398,7 +454,14 @@ namespace KartGame.KartSystems
             }
         }
 
-        void OnCollisionEnter(Collision collision) => m_HasCollision = true;
+        void OnCollisionEnter(Collision collision)
+        {
+            m_HasCollision = true;
+            if(collision.gameObject.tag == "Obstacle")
+            {
+                Adrenaline = 0;
+            }
+        }
         void OnCollisionExit(Collision collision) => m_HasCollision = false;
 
         void OnCollisionStay(Collision collision)
@@ -597,5 +660,6 @@ namespace KartGame.KartSystems
 
             ActivateDriftVFX(IsDrifting && GroundPercent > 0.0f);
         }
+
     }
 }
