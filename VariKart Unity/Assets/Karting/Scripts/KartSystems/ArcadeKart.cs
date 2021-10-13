@@ -106,6 +106,8 @@ namespace KartGame.KartSystems
 
         public ArcadeKart.Stats baseStats = new ArcadeKart.Stats
         {
+            TopSpeed = 30f,
+            Acceleration = 7f,
             AccelerationCurve   = 4f,
             Braking             = 10f,
             ReverseAcceleration = 5f,
@@ -393,6 +395,126 @@ namespace KartGame.KartSystems
             m_FinalStats.Grip = Mathf.Clamp(m_FinalStats.Grip, 0, 1);
         }
 
+        public void Update()
+        {
+            if (Adrenaline == 0)
+            {
+                /*ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 30f,
+                    Acceleration = 7f,
+                    AccelerationCurve = 4f,
+                    Braking = 10f,
+                    ReverseAcceleration = 5f,
+                    ReverseSpeed = 5f,
+                    Steer = 5f,
+                    CoastingDrag = 4f,
+                    Grip = .95f,
+                    AddedGravity = 1f,
+                }; */
+
+                m_FinalStats.TopSpeed = 30f;
+                m_FinalStats.Acceleration = 7f;
+            }
+            if (Adrenaline == 1)
+            {/*
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 40f,
+                    Acceleration = 20f,
+                    AccelerationCurve = 4f,
+                    Braking = 10f,
+                    ReverseAcceleration = 5f,
+                    ReverseSpeed = 5f,
+                    Steer = 5f,
+                    CoastingDrag = 4f,
+                    Grip = .95f,
+                    AddedGravity = 1f,
+                };*/
+
+                m_FinalStats.TopSpeed = 40f;
+                m_FinalStats.Acceleration = 20f;
+
+            }
+            if (Adrenaline == 2)
+            {/*
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 50f,
+                    Acceleration = 20f,
+                    AccelerationCurve = 4f,
+                    Braking = 10f,
+                    ReverseAcceleration = 5f,
+                    ReverseSpeed = 5f,
+                    Steer = 5f,
+                    CoastingDrag = 4f,
+                    Grip = .95f,
+                    AddedGravity = 1f,
+                };*/
+
+                m_FinalStats.TopSpeed = 50f;
+                m_FinalStats.Acceleration = 20f;
+            }
+            if (Adrenaline == 3)
+            {/*
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 60f,
+                    Acceleration = 20f,
+                    AccelerationCurve = 4f,
+                    Braking = 10f,
+                    ReverseAcceleration = 5f,
+                    ReverseSpeed = 5f,
+                    Steer = 5f,
+                    CoastingDrag = 4f,
+                    Grip = .95f,
+                    AddedGravity = 1f,
+                };*/
+
+                m_FinalStats.TopSpeed = 60f;
+                m_FinalStats.Acceleration = 20f;
+
+            }
+            if (Adrenaline == 4)
+            {/*
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 70f,
+                    Acceleration = 20f,
+                    AccelerationCurve = 4f,
+                    Braking = 10f,
+                    ReverseAcceleration = 5f,
+                    ReverseSpeed = 5f,
+                    Steer = 5f,
+                    CoastingDrag = 4f,
+                    Grip = .95f,
+                    AddedGravity = 1f,
+                };*/
+
+                m_FinalStats.TopSpeed = 70f;
+                m_FinalStats.Acceleration = 20f;
+            }
+            if (isWerewolf == true)
+            {/*
+                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
+                {
+                    TopSpeed = 75f,
+                    Acceleration = 20f,
+                    AccelerationCurve = 4f,
+                    Braking = 10f,
+                    ReverseAcceleration = 5f,
+                    ReverseSpeed = 5f,
+                    Steer = 5f,
+                    CoastingDrag = 4f,
+                    Grip = .95f,
+                    AddedGravity = 1f,
+                };*/
+
+                m_FinalStats.TopSpeed = 75f;
+                m_FinalStats.Acceleration = 20f;
+            }
+        }
+
         void GroundAirbourne()
         {
             // while in the air, fall faster
@@ -635,105 +757,6 @@ namespace KartGame.KartSystems
             ActivateDriftVFX(IsDrifting && GroundPercent > 0.0f);
         }
 
-        public void Update()
-        {
-            if (Adrenaline == 0)
-            {
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 30f,
-                    Acceleration = 7f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };
-            }
-            if (Adrenaline == 1)
-            {
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 40f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };
-            }
-            if (Adrenaline == 2)
-            {
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 50f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };
-
-            }
-            if (Adrenaline == 3)
-            {
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 60f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };
-            }
-            if (Adrenaline == 4)
-            {
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 70f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };
-            }
-            if (isWerewolf == true)
-            {
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 75f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };
-            }
-        }
+        
     }
 }
