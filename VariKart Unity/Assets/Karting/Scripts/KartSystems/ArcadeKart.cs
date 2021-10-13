@@ -399,117 +399,33 @@ namespace KartGame.KartSystems
         {
             if (Adrenaline == 0)
             {
-                /*ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 30f,
-                    Acceleration = 7f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                }; */
-
                 m_FinalStats.TopSpeed = 30f;
                 m_FinalStats.Acceleration = 7f;
             }
             if (Adrenaline == 1)
-            {/*
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 40f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };*/
-
+            {
                 m_FinalStats.TopSpeed = 40f;
                 m_FinalStats.Acceleration = 20f;
 
             }
             if (Adrenaline == 2)
-            {/*
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 50f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };*/
-
+            {
                 m_FinalStats.TopSpeed = 50f;
                 m_FinalStats.Acceleration = 20f;
             }
             if (Adrenaline == 3)
-            {/*
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 60f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };*/
-
+            {
                 m_FinalStats.TopSpeed = 60f;
                 m_FinalStats.Acceleration = 20f;
 
             }
             if (Adrenaline == 4)
-            {/*
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 70f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };*/
-
+            {
                 m_FinalStats.TopSpeed = 70f;
                 m_FinalStats.Acceleration = 20f;
             }
             if (isWerewolf == true)
-            {/*
-                ArcadeKart.Stats baseStats = new ArcadeKart.Stats
-                {
-                    TopSpeed = 75f,
-                    Acceleration = 20f,
-                    AccelerationCurve = 4f,
-                    Braking = 10f,
-                    ReverseAcceleration = 5f,
-                    ReverseSpeed = 5f,
-                    Steer = 5f,
-                    CoastingDrag = 4f,
-                    Grip = .95f,
-                    AddedGravity = 1f,
-                };*/
-
+            {
                 m_FinalStats.TopSpeed = 75f;
                 m_FinalStats.Acceleration = 20f;
             }
