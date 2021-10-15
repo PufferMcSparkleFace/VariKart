@@ -351,6 +351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1 &23283998
@@ -1276,6 +1281,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrackStraightShort (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -2496,6 +2506,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!4 &260148495 stripped
@@ -2638,6 +2653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1001 &293084201
@@ -2761,6 +2781,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -3870,6 +3895,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!43 &481787608
@@ -4968,6 +4998,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1001 &560491481
@@ -5091,6 +5126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -5937,6 +5977,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrackStraightShort
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -7389,6 +7434,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!4 &789248507 stripped
@@ -7570,6 +7620,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1001 &822580115
@@ -7693,6 +7748,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -8816,6 +8876,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1 &914371635
@@ -9245,6 +9310,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -9781,6 +9851,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1001 &1010939818
@@ -9919,6 +9994,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -10328,6 +10408,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!4 &1052856273 stripped
@@ -10457,6 +10542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -11371,6 +11461,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1 &1225777763
@@ -12051,6 +12146,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!4 &1292696372 stripped
@@ -12349,6 +12449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -12674,6 +12779,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -13285,6 +13395,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!4 &1426273314 stripped
@@ -13421,6 +13536,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1001 &1466469138
@@ -13544,6 +13664,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -13675,6 +13800,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1001 &1470197993
@@ -13798,6 +13928,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -14042,6 +14177,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1001 &1478805137
@@ -14254,6 +14394,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -14551,6 +14696,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -16844,6 +16994,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1 &1777502330
@@ -17174,6 +17329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -17930,6 +18090,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrackStraightShort
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1 &1859265562
@@ -18143,6 +18308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -18958,6 +19128,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1001 &2021961793
@@ -19081,6 +19256,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
@@ -20106,6 +20286,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitchfork Section Track
       objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
 --- !u!1 &2116177343
@@ -20343,6 +20528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pitchfork Section Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267178570433466100, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9b18b5e2bf23940b0adbbbbd09655f, type: 3}
