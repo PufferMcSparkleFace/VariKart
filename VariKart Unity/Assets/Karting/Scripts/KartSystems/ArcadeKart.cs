@@ -12,6 +12,7 @@ namespace KartGame.KartSystems
         public bool canBoost = true;
         public int Health = 3;
         public bool canCollide = true;
+        public bool respawning = false;
 
         public void OnTriggerEnter(Collider other)
         {
@@ -400,37 +401,10 @@ namespace KartGame.KartSystems
 
         public void Update()
         {
-            if (Adrenaline == 0)
+           if(Health <= 0 && respawning == false)
             {
-                m_FinalStats.TopSpeed = 30f;
-                m_FinalStats.Acceleration = 7f;
-            }
-            if (Adrenaline == 1)
-            {
-                m_FinalStats.TopSpeed = 40f;
-                m_FinalStats.Acceleration = 20f;
-
-            }
-            if (Adrenaline == 2)
-            {
-                m_FinalStats.TopSpeed = 50f;
-                m_FinalStats.Acceleration = 20f;
-            }
-            if (Adrenaline == 3)
-            {
-                m_FinalStats.TopSpeed = 60f;
-                m_FinalStats.Acceleration = 20f;
-
-            }
-            if (Adrenaline == 4)
-            {
-                m_FinalStats.TopSpeed = 70f;
-                m_FinalStats.Acceleration = 20f;
-            }
-            if (isWerewolf == true)
-            {
-                m_FinalStats.TopSpeed = 75f;
-                m_FinalStats.Acceleration = 20f;
+                Debug.Log("you died lol");
+                respawning = true;
             }
         }
 
