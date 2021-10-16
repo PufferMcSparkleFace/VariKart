@@ -413,9 +413,11 @@ namespace KartGame.KartSystems
 
         IEnumerator respawn (float waitTime)
         {
+            m_CanMove = false;
             yield return new WaitForSeconds(waitTime);
             Health = 3;
             respawning = false;
+            m_CanMove = true;
         }
 
         void GroundAirbourne()
