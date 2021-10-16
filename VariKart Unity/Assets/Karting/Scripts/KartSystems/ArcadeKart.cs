@@ -11,6 +11,7 @@ namespace KartGame.KartSystems
         public int Adrenaline = 0;
         public bool canBoost = true;
         public int Health = 3;
+        public bool canCollide = true;
 
         public void OnTriggerEnter(Collider other)
         {
@@ -474,13 +475,20 @@ namespace KartGame.KartSystems
             {
                 return;
             }
-            if(collision.gameObject.tag == "Obstacle" || collision.gameObject.tag == "Humanoid")
+            if(canCollide == true && collision.gameObject.tag == "Obstacle" || collision.gameObject.tag == "Humanoid")
             {
                 Adrenaline = 0;
                 Health -= 1;
+                canCollide = false;
             }
         }
-        void OnCollisionExit(Collision collision) => m_HasCollision = false;
+
+
+        void OnCollisionExit(Collision collision) 
+        {
+            m_HasCollision = false;
+            canCollide = true;
+        }
 
         void OnCollisionStay(Collision collision)
         {
