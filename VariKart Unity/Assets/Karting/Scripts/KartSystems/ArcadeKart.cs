@@ -469,7 +469,11 @@ namespace KartGame.KartSystems
         void OnCollisionEnter(Collision collision)
         {
             m_HasCollision = true;
-            if(collision.gameObject.tag == "Obstacle")
+            if(isWerewolf == true && collision.gameObject.tag == "Humanoid")
+            {
+                return;
+            }
+            if(collision.gameObject.tag == "Obstacle" || collision.gameObject.tag == "Humanoid")
             {
                 Adrenaline = 0;
             }
