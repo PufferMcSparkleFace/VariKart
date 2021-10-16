@@ -29,6 +29,7 @@ namespace KartGame.KartSystems
         public void OnTriggerExit(Collider other)
         {
             canBoost = true;
+            canCollide = true;
         }
 
 
@@ -484,11 +485,7 @@ namespace KartGame.KartSystems
         }
 
 
-        void OnCollisionExit(Collision collision) 
-        {
-            m_HasCollision = false;
-            canCollide = true;
-        }
+        void OnCollisionExit(Collision collision) => m_HasCollision = false;
 
         void OnCollisionStay(Collision collision)
         {
