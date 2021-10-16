@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.VFX;
+using System.Collections;
 
 namespace KartGame.KartSystems
 {
@@ -403,9 +404,17 @@ namespace KartGame.KartSystems
         {
            if(Health <= 0 && respawning == false)
             {
-                Debug.Log("you died lol");
+                StartCoroutine(respawn(3f));
                 respawning = true;
             }
+        }
+
+        public float waitTime;
+
+        IEnumerator respawn (float waitTime)
+        {
+            yield return new WaitForSeconds(waitTime);
+            respawning = false;
         }
 
         void GroundAirbourne()
