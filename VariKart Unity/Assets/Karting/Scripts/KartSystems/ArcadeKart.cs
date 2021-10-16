@@ -402,6 +402,14 @@ namespace KartGame.KartSystems
 
         public void Update()
         {
+           if(Health == 1)
+            {
+                isWerewolf = true;
+            }
+            else
+            {
+                isWerewolf = false;
+            }
            if(Health <= 0 && respawning == false)
             {
                 StartCoroutine(respawn(3f));
