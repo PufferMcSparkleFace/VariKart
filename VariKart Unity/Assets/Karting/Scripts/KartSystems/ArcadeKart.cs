@@ -10,6 +10,7 @@ namespace KartGame.KartSystems
         public bool isWerewolf = false;
         public int Adrenaline = 0;
         public bool canBoost = true;
+        public int Health = 3;
 
         public void OnTriggerEnter(Collider other)
         {
@@ -476,6 +477,7 @@ namespace KartGame.KartSystems
             if(collision.gameObject.tag == "Obstacle" || collision.gameObject.tag == "Humanoid")
             {
                 Adrenaline = 0;
+                Health -= 1;
             }
         }
         void OnCollisionExit(Collision collision) => m_HasCollision = false;
