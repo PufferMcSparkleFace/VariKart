@@ -414,6 +414,7 @@ namespace KartGame.KartSystems
         IEnumerator respawn (float waitTime)
         {
             yield return new WaitForSeconds(waitTime);
+            Health = 3;
             respawning = false;
         }
 
