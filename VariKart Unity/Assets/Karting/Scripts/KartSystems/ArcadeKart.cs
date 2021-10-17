@@ -16,6 +16,7 @@ namespace KartGame.KartSystems
         public bool canCollide = true;
         public Slider slider;
         public bool respawning = false;
+        public Image health1, health2, health3;
 
         public void OnTriggerEnter(Collider other)
         {
@@ -41,6 +42,8 @@ namespace KartGame.KartSystems
         {
             slider.value = adrenaline;
         }
+
+
 
 
 
@@ -433,6 +436,9 @@ namespace KartGame.KartSystems
             m_CanMove = false;
             yield return new WaitForSeconds(waitTime);
             Health = 3;
+            health1.enabled = true;
+            health2.enabled = true;
+            health3.enabled = true;
             respawning = false;
             m_CanMove = true;
         }
@@ -485,6 +491,30 @@ namespace KartGame.KartSystems
                 Health -= 1;
                 SetAdrenaline(Adrenaline);
                 canCollide = false;
+                if (Health == 3)
+                {
+                    health1.enabled = true;
+                    health2.enabled = true;
+                    health3.enabled = true;
+                }
+                if (Health == 2)
+                {
+                    health1.enabled = true;
+                    health2.enabled = true;
+                    health3.enabled = false;
+                }
+                if (Health == 1)
+                {
+                    health1.enabled = true;
+                    health2.enabled = false;
+                    health3.enabled = false;
+                }
+                if (Health == 0)
+                {
+                    health1.enabled = false;
+                    health2.enabled = false;
+                    health3.enabled = false;
+                }
             }
         }
 
