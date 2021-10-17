@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.VFX;
 using System.Collections;
+using UnityEngine.UI;
 
 namespace KartGame.KartSystems
 {
@@ -13,6 +14,7 @@ namespace KartGame.KartSystems
         public bool canBoost = true;
         public int Health = 3;
         public bool canCollide = true;
+        public Slider slider;
         public bool respawning = false;
 
         public void OnTriggerEnter(Collider other)
@@ -24,6 +26,7 @@ namespace KartGame.KartSystems
                 {
                     Adrenaline = 4;
                 }
+                SetAdrenaline(Adrenaline);
                 canBoost = false;
             }
         }
@@ -32,6 +35,11 @@ namespace KartGame.KartSystems
         {
             canBoost = true;
             canCollide = true;
+        }
+
+        public void SetAdrenaline (int adrenaline)
+        {
+            slider.value = adrenaline;
         }
 
 
@@ -405,6 +413,7 @@ namespace KartGame.KartSystems
            if(Health == 1)
             {
                 isWerewolf = true;
+                SetAdrenaline(5);
             }
             else
             {
@@ -474,6 +483,7 @@ namespace KartGame.KartSystems
             {
                 Adrenaline = 0;
                 Health -= 1;
+                SetAdrenaline(Adrenaline);
                 canCollide = false;
             }
         }
