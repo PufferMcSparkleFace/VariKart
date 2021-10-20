@@ -5,10 +5,12 @@ using PathCreation;
 
 public class Dancing : MonoBehaviour
 {
-    public PathCreator pathCreator;
     public float speed = 5;
-    float rotationSpeed = 5;
-    float distanceTravelled;
+    public float rotationSpeed = 5;
+    public Rigidbody rb1;
+    public Rigidbody rb2;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +20,8 @@ public class Dancing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distanceTravelled += speed * Time.deltaTime;
-        transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
-        transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled);
+        rb1.velocity = transform.forward * speed * Time.deltaTime;
+        rb2.velocity = transform.forward * speed * Time.deltaTime;
+        transform.Rotate(new Vector3(0, 1, 0) * Time.deltaTime * rotationSpeed, Space.World);
     }
 }
