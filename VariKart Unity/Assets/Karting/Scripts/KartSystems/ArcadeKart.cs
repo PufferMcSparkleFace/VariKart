@@ -17,15 +17,18 @@ namespace KartGame.KartSystems
         public Slider slider;
         public bool respawning = false;
         public Image health1, health2, health3;
+        public int speedIncrease = 0;
 
         public void OnTriggerEnter(Collider other)
         {
             if(other.tag == "Speedboost" && canBoost == true)
             {
                 Adrenaline += 1;
+                baseStats.TopSpeed += 10;
                 if(Adrenaline > 4)
                 {
                     Adrenaline = 4;
+                    baseStats.TopSpeed = 70;
                 }
                 SetAdrenaline(Adrenaline);
                 canBoost = false;
@@ -406,6 +409,7 @@ namespace KartGame.KartSystems
 
             // add powerups to our final stats
             m_FinalStats = baseStats + powerups;
+           
 
             // clamp values in finalstats
             m_FinalStats.Grip = Mathf.Clamp(m_FinalStats.Grip, 0, 1);
@@ -416,6 +420,7 @@ namespace KartGame.KartSystems
            if(Health == 1)
             {
                 isWerewolf = true;
+                baseStats.TopSpeed = 75;
                 SetAdrenaline(5);
             }
             else
@@ -489,6 +494,7 @@ namespace KartGame.KartSystems
             {
                 Adrenaline = 0;
                 Health -= 1;
+                baseStats.TopSpeed = 30;
                 SetAdrenaline(Adrenaline);
                 canCollide = false;
                 if (Health == 3)
