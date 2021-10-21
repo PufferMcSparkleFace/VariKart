@@ -1575,6 +1575,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!4 &99899777
 Transform:
   m_ObjectHideFlags: 0
@@ -2194,6 +2196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 1675893959}
+  rb2: {fileID: 1912433378}
 --- !u!1 &139918651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,6 +2243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!1 &145438138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4313,6 +4319,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!4 &477217180
 Transform:
   m_ObjectHideFlags: 0
@@ -4522,6 +4530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!4 &487159650
 Transform:
   m_ObjectHideFlags: 0
@@ -6124,6 +6134,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 51049046}
+  rb2: {fileID: 600776651}
 --- !u!4 &632334394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6871283727964062618, guid: edb63eeddf7dc2943ba5e6ff4eac49f3,
@@ -8135,6 +8147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!4 &809381480
 Transform:
   m_ObjectHideFlags: 0
@@ -11597,6 +11611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 195949133}
+  rb2: {fileID: 696547433}
 --- !u!1 &1155647062
 GameObject:
   m_ObjectHideFlags: 0
@@ -11771,6 +11787,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 771839495}
+  rb2: {fileID: 1678124000}
 --- !u!1 &1176067594
 GameObject:
   m_ObjectHideFlags: 0
@@ -13652,6 +13670,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!4 &1336461484
 Transform:
   m_ObjectHideFlags: 0
@@ -15559,6 +15579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 761882874}
+  rb2: {fileID: 1958383413}
 --- !u!1 &1521887965
 GameObject:
   m_ObjectHideFlags: 0
@@ -16088,6 +16110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!4 &1556076157
 Transform:
   m_ObjectHideFlags: 0
@@ -16396,6 +16420,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 2027926347}
+  rb2: {fileID: 1810700006}
 --- !u!43 &1611669178
 Mesh:
   m_ObjectHideFlags: 0
@@ -16620,6 +16646,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 1471429874}
+  rb2: {fileID: 1561462159}
 --- !u!4 &1628321739 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7267178570433368784, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
@@ -16825,6 +16853,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 398980394}
+  rb2: {fileID: 535251109}
 --- !u!1 &1646829454
 GameObject:
   m_ObjectHideFlags: 0
@@ -18460,6 +18490,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!1 &1777502330
 GameObject:
   m_ObjectHideFlags: 0
@@ -19321,6 +19353,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!4 &1826154549
 Transform:
   m_ObjectHideFlags: 0
@@ -19629,6 +19663,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 897590289}
+  rb2: {fileID: 374944130}
 --- !u!1 &1845903041
 GameObject:
   m_ObjectHideFlags: 0
@@ -19728,6 +19764,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 1720697873}
+  rb2: {fileID: 1720825265}
 --- !u!1001 &1848137519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20497,6 +20535,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  rb1: {fileID: 869478356}
+  rb2: {fileID: 1326135543}
 --- !u!1 &1958383411
 GameObject:
   m_ObjectHideFlags: 0
@@ -22277,6 +22317,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!1 &2129444795
 GameObject:
   m_ObjectHideFlags: 0
@@ -22307,6 +22349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  rb1: {fileID: 0}
+  rb2: {fileID: 0}
 --- !u!4 &2129444797
 Transform:
   m_ObjectHideFlags: 0
