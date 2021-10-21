@@ -6,6 +6,7 @@ using PathCreation;
 public class Dancing : MonoBehaviour
 {
     public float speed = 5;
+    public Rigidbody rb1, rb2;
     
     
 
@@ -20,5 +21,12 @@ public class Dancing : MonoBehaviour
     {
         transform.Rotate(0, speed * Time.deltaTime, 0);
 
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        speed = 0;
+        rb1.useGravity = true;
+        rb2.useGravity = true;
     }
 }
