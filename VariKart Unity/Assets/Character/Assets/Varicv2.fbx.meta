@@ -3,7 +3,107 @@ guid: 7ba1956f9bf214246aeff642af9d7aa3
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armband
+    second: {fileID: 2100000, guid: b580aa8105edcee4cb637644929e7db8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blade
+    second: {fileID: 2100000, guid: 1774bc404fb783d488f408839a3ba84f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: f7361789a4838934cba7af6722f2c463, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BootCuffs
+    second: {fileID: 2100000, guid: 85daf477056da334dace755a263b0e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boot_Decorations
+    second: {fileID: 2100000, guid: 0ff666620b1cf314dbab89f7e906e52d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boots
+    second: {fileID: 2100000, guid: ec20179f93220954c85f35b7fc955caa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain
+    second: {fileID: 2100000, guid: 1fbeb98ee73f35f40929bfb04c012732, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cloak
+    second: {fileID: 2100000, guid: 30d7ebba979b21849aac8d41821e72ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CloakFuzz
+    second: {fileID: 2100000, guid: ee1b4e06ae20a1848a82f56f877880f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gemstone
+    second: {fileID: 2100000, guid: 7effb0503a491774f8fcd18688edde64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Guard
+    second: {fileID: 2100000, guid: e24a707395be4f6489a2a024e03bafbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: 9745fb56eb48ccb449046feca8fc0064, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle
+    second: {fileID: 2100000, guid: 3948e90c76cf47a41b3aa110ad67e574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pants2
+    second: {fileID: 2100000, guid: 1a2027b20155053418335aa92cfdc4c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pommel
+    second: {fileID: 2100000, guid: 89399a8dc5bc87c42b7759eaa4d16b43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: 5090b89d302c0b943937895e6e992ae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoulderPad
+    second: {fileID: 2100000, guid: f7f3b3aa65fea6f489cb3f59a00727fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strap
+    second: {fileID: 2100000, guid: 9f01dfde56aaa534498791179cda1ef5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Varic_Hair_aiStandardSurface1
+    second: {fileID: 2100000, guid: 190513374f78fd04fa8b99c8bb96187d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 97b26be2fd676334e959a246b14cf5b2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
