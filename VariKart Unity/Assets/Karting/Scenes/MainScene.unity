@@ -2125,6 +2125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkullPile_LODG_OldBone
       objectReference: {fileID: 0}
+    - target: {fileID: 1579228611734168154, guid: 0045d9771634b13459b5a762d4c5beaf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6840754888102905534, guid: 0045d9771634b13459b5a762d4c5beaf,
         type: 3}
       propertyPath: m_RootOrder
@@ -5302,6 +5307,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BonePile_LODG_OldBone (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7277580575778535678, guid: af67626357e121945807aab9616912ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af67626357e121945807aab9616912ba, type: 3}
 --- !u!4 &223291470 stripped
@@ -6406,6 +6416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BonePile_LODG_OldBone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277580575778535678, guid: af67626357e121945807aab9616912ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af67626357e121945807aab9616912ba, type: 3}
@@ -9360,7 +9375,7 @@ Transform:
   m_LocalScale: {x: 21, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 1845903042}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &422360982
 BoxCollider:
@@ -19836,12 +19851,12 @@ PrefabInstance:
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000042886037
+      value: -0.0000000042886055
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -3.3405426e-10
+      value: 3.340544e-10
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
@@ -20007,7 +20022,7 @@ Transform:
   m_Children:
   - {fileID: 628792928}
   m_Father: {fileID: 1845903042}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &879158375
 GameObject:
@@ -23236,6 +23251,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkullPile_LODG_OldBone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579228611734168154, guid: 0045d9771634b13459b5a762d4c5beaf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6840754888102905534, guid: 0045d9771634b13459b5a762d4c5beaf,
         type: 3}
       propertyPath: m_RootOrder
@@ -23395,6 +23415,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ScatteredBones_LODG_OldBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593768654276586918, guid: 49fdd23b95f09ea4985913544c6c123a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49fdd23b95f09ea4985913544c6c123a, type: 3}
@@ -28122,7 +28147,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207105314}
-  m_LocalRotation: {x: 0.077658236, y: 0.0000000042886037, z: -3.3405426e-10, w: 0.9969801}
+  m_LocalRotation: {x: 0.077658236, y: -0.0000000042886055, z: 3.340544e-10, w: 0.9969801}
   m_LocalPosition: {x: -0.30000305, y: 3, z: -222.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -31116,6 +31141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BonePile_LODG_OldBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277580575778535678, guid: af67626357e121945807aab9616912ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af67626357e121945807aab9616912ba, type: 3}
@@ -42385,21 +42415,21 @@ Transform:
   - {fileID: 1336350236}
   - {fileID: 504216607}
   - {fileID: 897009360}
+  - {fileID: 422360981}
   - {fileID: 86506431}
   - {fileID: 994509262}
   - {fileID: 996707893}
-  - {fileID: 422360981}
   - {fileID: 586757351}
   - {fileID: 90334500}
   - {fileID: 1868798834}
   - {fileID: 879158376}
   - {fileID: 2132554890}
-  - {fileID: 223695833}
   - {fileID: 878964973}
-  - {fileID: 422700937}
-  - {fileID: 2143764187}
+  - {fileID: 223695833}
   - {fileID: 280295307}
   - {fileID: 223291470}
+  - {fileID: 422700937}
+  - {fileID: 2143764187}
   m_Father: {fileID: 952491226}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
